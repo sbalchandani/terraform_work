@@ -1,0 +1,25 @@
+# Ignore Terraform state files and backups
+*.tfstate
+*.tfstate.*
+
+# Ignore the .terraform directory
+.terraform/
+
+# Ignore variable files
+*.tfvars
+*.auto.tfvars
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+# Ignore crash log files
+crash.log
+crash.*.log
+
+# Ignore override files
+override.tf
+
+# Ignore Terraform plan files (if you output them)
+# For example, if your plan file is named plan.tfplan
+# plan.tfplan
